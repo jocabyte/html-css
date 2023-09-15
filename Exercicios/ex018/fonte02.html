@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'pricedown';
+            src: url('pricedown.otf') format('opentype');
+            /*
+                font-family: 'DeathM';
+                src: url('DeathMohawk.otf') format('opentype');
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: pricedown;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, culpa? Quos eos, aliquam nulla tenetur quis corporis velit dolor. In aliquam quaerat ad possimus autem tempora recusandae incidunt voluptatibus ipsa.</p>
+</body>
+</html>
